@@ -24,5 +24,5 @@ pub fn variable_with_attributes(
 }
 
 pub fn variable(name : @ir.Name) -> Type {
-  variable(name)
+  Variable(None, name)
 }

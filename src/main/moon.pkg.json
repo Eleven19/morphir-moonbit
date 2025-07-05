@@ -1,6 +1,8 @@
 {
   "is-main": true,
   "import": [
-    "eleven19/morphir/lib"
+    "eleven19/morphir/lib",
+    "eleven19/morphir/ir",
+    "eleven19/morphir/ir/type"
   ]
 }

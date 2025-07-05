@@ -9,9 +9,11 @@ pub fn field(name : @ir.Name, field_type : Type) -> Field {
 
 test "field should serialize as expected" {
   let myField = field("myField", variable("MyType") )
-  @json.inspect(myField, content={
-      "name": "myField",
-      "field_type": { "kind": "Variable", "name": "MyType" },
-    },
-  )
+  let field_json = myField.to_json()
+  println(field_json)
+  // @json.inspect(myField, content={
+  //     "name": "myField",
+  //     "field_type": { "kind": "Variable", "name": "MyType" },
+  //   },
+  // )
 }

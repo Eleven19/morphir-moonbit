@@ -1,0 +1,6 @@
+{
+  "is-main": true,
+  "import": [
+    "eleven19/morphir/lib"
+  ]
+}

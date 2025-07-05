@@ -1,0 +1,1 @@
+pub typealias String as Name
